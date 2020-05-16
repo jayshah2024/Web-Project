@@ -1,0 +1,109 @@
+body, html {
+   height: 100%;
+   width:100%;
+   background-image:url(pasta.jpg); 
+   background-repeat:no-repeat;
+   background-size:100% 100%;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login {
+  background-color: #8B0000;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signup {
+  background-color: darksalmon;
+  color:white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.heading
+{
+    background-color:orange;
+    color:white;
+    position:absolute;
+    left:5%;
+    width:50%;
+    height:12%;
+    border-radius:30px;
+	animation-name: example;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes example 
+{
+0%   {display: block;}
+20%  {width:51%; height:13%;}
+25%  {width:50%; height:12%;}
+50%	 {width:53%; height:15%;}
+100% {width:50%; height:12%;}
+}
+
+.container {
+	position:absolute;
+	top:25%;
+        left:5%;
+	width:30%;
+        height:43%;
+        padding:10px;
+	text-align:center;
+        border-radius:30px;
+}
+
+.slideshow{
+        position:absolute;
+	top:25%;
+        left:43%;
+        border-style:double;
+        border-width:5px;
+}
+
+.created{
+    position:absolute;
+    top:75%;
+    left:40%;
+}
+
+.names {
+    width: 200px;
+    height: 100px;
+    position:absolute;
+    top:82%;
+    left:40%;
+    background: red;
+}
+
+a{
+    color:red;
+    -webkit-transition: color 1s; /* For Safari 3.1 to 6.0 */
+    transition: color 1s;
+}
+
+a:hover {
+    color:white;
+}
+
+
